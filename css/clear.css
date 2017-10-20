@@ -1,0 +1,29 @@
+﻿@charset "utf-8";
+
+/* ===================================================================
+
+    ClearFix
+	
+------------------------------------------------------------------- */
+
+#contentsArea .pageTop:after,
+#contentsArea .layout:after,
+.topImgArea .Medical-Devices:after,
+.topImgArea:after,
+.topImgArea .topArea:after,
+#gmArea .inner:after,
+#contentsArea:after,
+#contentsArea .inner:after,
+#contentsArea .main-layout:after,
+#contentsArea .main:after,
+#contentsArea .sub:after {
+content:"."!important;
+display: block!important;
+height:0px!important;
+clear:both!important;
+line-height:0!important;
+visibility:hidden!important;
+line-height:0!important;
+font-size:0!important;
+}
+

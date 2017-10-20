@@ -1,0 +1,119 @@
+﻿@charset "utf-8";
+
+/* ===================================================================
+
+   top Style Sheet
+	
+------------------------------------------------------------------- */
+
+
+/* .topArea */
+
+.topImgArea {
+	width: 860px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 307px;
+	background-image: url(../img/top/main_img.jpg);
+}
+
+.topImgArea .topArea {
+	width: 760px;
+	margin-left: 50px;
+}
+
+.topArea .leftArea {
+	width: 536px;
+	float: left;
+}
+
+.topArea .rightArea {
+	width: 200px;
+	float: right;
+	padding-top: 24px;
+}
+
+.topImgArea .Medical-Devices {
+	width: 536px;
+}
+
+.topImgArea .leftArea .Medical-Devices h2 {
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px!important;
+	padding: 0px;
+}
+
+.topImgArea .Medical-Devices .content {
+	width: 536px;
+	background-image: url(../img/top/medical_mevices_bg.gif);
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.topImgArea .Medical-Devices .content-foot {
+	width: 536px;
+	background-image: url(../img/top/medical_mevices_bg_foot.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 8px;
+}
+
+.topImgArea .Medical-Devices .content p {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.topImgArea .Medical-Devices .content .btnArea {
+	width: 518px;
+	margin-left: 9px;
+}
+
+.topImgArea .rightArea h2 {
+	font-size: 0px;
+	line-height: 0px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px!important;
+	margin-left: 0px;
+}
+
+.topImgArea .mr4 {
+	margin-right: 4px;
+}
+
+.topImgArea .mb6 {
+	margin-bottom: 6px;
+}
+
+.topImgArea .mb11 {
+	margin-bottom: 11px;
+}
+
+.topImgArea .mb27 {
+	margin-bottom: 27px;
+}
+
+div #coution{
+	padding-top:18px;
+	padding-bottm:0px;
+	margin-bottm:0px;
+	line-height:40%;
+	color :#8b4513;
+}
+
+.coutiondays{
+	padding-top:0px;
+	line-height:110%;
+	color :#8b4513;
+}
+
+
+.coutiondays2{
+	padding-top: 8px;
+	line-height:110%;
+	color :#8b4513;
+}

@@ -1,0 +1,203 @@
+@charset "utf-8";
+/*////////////////////////////////////////////////////
+
+  ZeroMail SKIN [pureblue]
+  @copyright:(c)Tenderfeel(http://webtecnote.com/)
+  @license: MIT-style license.
+
+////////////////////////////////////////////////////*/
+
+/* ボタンの親 */
+.button {
+	text-align:center;
+}
+
+/* Table
+--------------------------------------------------*/
+.zeromail table,
+.zeromail th,
+.zeromail td {
+	background-color:#fff;
+	border:solid 1px #cdd8eb;
+	border-collapse:collapse;
+	font-weight: normal;
+}
+.zeromail table {
+	width:100%;
+    margin-bottom:10px;
+}
+
+.zeromail caption {
+    margin:10px 0;
+    padding:0.5em;
+    background-color:#c9d9f0;
+    color:#3762a8;
+    font-weight:bold;
+}
+
+.zeromail thead th,
+.zeromail tfoot th {
+	background-color:#dbe5f3;
+    text-align:center;
+}
+.zeromail thead td,
+.zeromail tfoot td {
+	background-color:#dbe5f3;
+    text-align:center;
+}
+
+.zeromail tbody th {
+    width:25%;
+    padding:0.5em;
+	background-color:#ebf1f9;
+	font-weight:normal;
+    text-align:center;
+}
+
+.zeromail td {
+    padding:0.5em;
+	text-align:left;
+}
+
+/* Button
+--------------------------------------------------*/
+.zeromail .button {
+    text-align:center;
+    margin-top:20px;
+}
+.zeromail .button button {
+    min-width:100px;
+	_width:100px;
+}
+.zeromail button[type],
+.zeromail button[id]{
+    margin:0 5px;
+	padding:0 5px;
+    border:solid 2px;
+    border-color:#ddd #aaa #aaa #ddd;
+	border-radius:5px;
+    background-color:#ccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+    line-height:1.4;
+    cursor:pointer;
+}
+
+.zeromail button[type]:hover,
+.zeromail button[id]:hover{
+    background-color:#efefef;
+		background:none;
+}
+.zeromail button[id=submit] {
+    border-color:#CAD6F0 #7C99DC #889FD7 #CAD6F0;
+    background-color:#AABCE8;
+}
+.zeromail button[id=submit]:hover {
+    border-color:#C4E0F0 #8DC5E2 #8FBEE0 #C4E0F0;
+    background-color:#A9D2E9;
+}
+
+.zeromail button[id=myreset],
+.zeromail button[id=close]{
+	width: auto;
+	padding:0;
+	margin-right: 25px;
+	background:none;
+	border:0;
+	font-size:0;
+	line-height:0;
+	overflow:visible;
+	cursor:pointer;
+	text-align: center;
+}
+
+
+
+
+/* 確認・エラー画面(check,error)
+--------------------------------------------------*/
+.zeromail #confirm td  {
+    padding:1em;
+}
+
+.zeromail strong.error {
+	padding:0;
+	margin:0;
+	border:0;
+	background:none;
+	color:#A82B2B;
+	font-style: normal;
+	display: inline;
+}
+
+/* Message()のメッセージ */
+.message {
+	text-align:center;
+}
+
+/*エラー*/
+.zeromail p.error {
+	padding:0;
+	margin:0;
+	border:0;
+	background:none;
+	color:#A82B2B;
+	font-style: normal;
+	display: inline;
+}
+
+.zeromail span.error{
+	display:block;
+	margin:1.5em 50px;
+	padding:1.5em 0;
+	background-color:#f7a499;
+	border:solid 1px #e16c48;
+	text-align:center;
+	color:#181710;
+}
+
+/*エラーなし*/
+.zeromail span.confirm{
+	display:block;
+	color:#339933;
+	border:solid 1px;
+	border-color:#D9F4C4;
+	padding:10px;
+}
+
+
+/*-----------------------------------------------------
+  copyright
+-----------------------------------------------------*/
+.wtn_copyright {
+    display:none;
+}
+/*-----------------------------------------------------
+.wtn_copyright {
+	clear:both;
+    margin-top:30px;
+    font-size:10px;
+	text-align:center;
+}
+-----------------------------------------------------*/
+.wtn_copyright a{
+    color:#AABCE8;
+	text-decoration:none;
+}
+.wtn_copyright p{
+    display:none;
+}
+/* [ADMIN] Copyright
+--------------------------------------------------*/
+#admin .wtn_copyright {
+	display:none;
+}
+/*
+#admin .wtn_copyright {
+	clear:both;
+	margin:0 auto;
+	padding-top:10px;
+	border-top:solid 1px;
+	font-size:85%;
+}
+*/
